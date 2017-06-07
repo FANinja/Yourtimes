@@ -1,0 +1,37 @@
+.header {
+  display: inline-flex;
+  position: fixed;
+  z-index: 5;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+}
+
+span {
+  display: inline-block;s
+  padding: 20px 10px;
+}
+
+div {
+  border: thin solid black;
+}
+
+a {
+  color: black
+}
+
+.logoname {
+  color: aquamarine;
+}
+
+.column {
+  display:flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+#id {
+  display: inline-block;
+
+}
