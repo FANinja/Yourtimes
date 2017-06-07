@@ -64,6 +64,23 @@ a {
   width: 240px;
 }
 
+.mother {
+  display: column;
+}
+
+.orca-burger {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orca {
+  display: column;
+}
+
+.burger {
+  display: column;
+}
+
 .image {
   color: white;
 }
