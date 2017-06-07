@@ -1,3 +1,7 @@
+* {
+  flex-wrap: nowrap;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -48,7 +52,39 @@ a {
   justify-content:space-around;
 }
 
-.id {
+.column .large {
+  width: 630px;
+}
+
+.column .medium {
+  width: 300px;
+}
+
+.column .small {
+  width: 240px;
+}
+
+.image {
+  color: white;
+}
+
+#image1 {
+  background-image: url("../images/main-story.png");
+}
+
+#image2 {
+  background-image: url("../images/fall-season.png");
+}
+
+#image3 {
+  background-image: url("../images/cameraman.png");
+}
+
+#image4 {
+  background-image: url("../images/cat-ceo.png");
+}
+
+.address {
   display: inline-block;
   text-transform: uppercase;
 }
