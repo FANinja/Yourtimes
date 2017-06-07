@@ -1,3 +1,7 @@
+* {
+margin: 0;
+}
+
 .header {
   display: inline-flex;
   position: fixed;
@@ -6,6 +10,7 @@
   font-size: 14px;
   font-weight: bold;
   width: 100%;
+  background-color: white;
 }
 
 span {
@@ -22,7 +27,7 @@ a {
 }
 
 .logoname {
-  color: aquamarine;
+  color: mediumaquamarine;
 }
 
 .column {
@@ -31,7 +36,7 @@ a {
   justify-content:space-around;
 }
 
-#id {
+.id {
   display: inline-block;
-
+  text-transform: uppercase;
 }
