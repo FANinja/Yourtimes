@@ -1,11 +1,7 @@
-* {
-  flex-wrap: nowrap;
-}
-
 body {
   margin: 0;
   padding: 0;
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
   font-size: 17px;
   color: black;
 }
@@ -20,15 +16,13 @@ body {
   font-weight: bold;
   width: 100%;
   background: white;
+  padding: 10px 0px;
+  border-bottom: thin solid black;
 }
 
 span {
   display: inline-block;
   padding: 20px 10px;
-}
-
-div {
-  border: thin solid black;
 }
 
 .logo {
@@ -49,6 +43,7 @@ a {
 .column {
   display:flex;
   padding-top: 100px;
+  padding-bottom: 90px;
   justify-content:center;
 }
 
@@ -58,6 +53,7 @@ a {
 
 .column .medium {
   width: 300px;
+  padding: 0px 40px;
 }
 
 .column .small {
@@ -69,16 +65,19 @@ a {
 }
 
 .orca-burger {
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .orca {
   display: column;
+  padding-right: 40px;
 }
 
 .burger {
   display: column;
+  padding-bottom: 5px;
 }
 
 .image {
@@ -95,6 +94,8 @@ a {
   background-image: url("../images/main-story.png");
   height: 300px;
   width: 625px;
+  font-size: 20px;
+  text-align: left;
 }
 
 #image2 {
@@ -126,11 +127,13 @@ a {
   font-weight: bold;
 }
 
-.para6 span {
+.para6 .bitelink {
   background-color: WhiteSmoke;
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
+  border-bottom: thin solid black;
+  text-align: left;
 }
 
 .footer {
@@ -151,4 +154,5 @@ a {
   font-size: 16px;
   font-weight: bold;
   color: white;
+  border-right: 2px solid white;
 }
