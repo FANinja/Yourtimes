@@ -134,6 +134,7 @@ a {
   color: DimGray;
   border-bottom: thin solid black;
   text-align: left;
+  display: block;
 }
 
 .footer {
