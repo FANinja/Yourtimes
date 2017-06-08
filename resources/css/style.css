@@ -155,4 +155,5 @@ a {
   font-weight: bold;
   color: white;
   border-right: 2px solid white;
+  line-height: 0px;
 }
